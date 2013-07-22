@@ -2,16 +2,16 @@
  * Environment variable for the remote server. This is used to select the appropriate remote URL
  * @type {string} Environment Name
  */
-const RemoteServerEnvironment = "Prod";
+const RemoteServerEnvironment = "Demo";
 
 /**
  * Remote URL Variables. One for each possible RemoteServerEnvironment value. Must Be named like
  * RemoteServerEnvironment + "_RemoteURL"
  */
-const Dev_RemoteURL     = "http://www.youngevity.reurgency.com/90forLifeMobile#/";
+const Dev_RemoteURL     = "http://www.youngevity.reurgency.com/90forLifeMobile";
 const QA_RemoteURL      = "";
 const Staging_RemoteURL = "http://appstest.youngevity.com/90forLifeMobile/";
-const Demo_RemoteURL    = "http://www.reurgency.com/#/Demo";
+const Demo_RemoteURL    = "http://www.youngevity.reurgency.com/90forLifeMobile#/";
 const Prod_RemoteURL    = "https://apps.youngevity.com/90ForLifeMobile/";
 //END REMOTE URL VARIABLES
 
@@ -19,7 +19,7 @@ const Prod_RemoteURL    = "https://apps.youngevity.com/90ForLifeMobile/";
  * The apps title. This will be injected into document.title
  * @type {string}
  */
-const AppTitle = "90forLife Mobile";
+const AppTitle = "90forLife Mobile Demo";
 /**
  * The Title in the config block. Typically the company name
  * @type {string}
