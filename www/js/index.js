@@ -28,6 +28,7 @@ var app = {
      * Callback for PhoneGaps deviceready event.
      */
     deviceready: function() {
+        navigator.splashscreen.hide();
         // This is an event handler function, which means the scope is the event.
         // So, we must explicitly called `app.report()` instead of `this.report()`.
         app.report('deviceready');
@@ -65,7 +66,7 @@ var app = {
     report: function(id) {
         // Report the event in the console
         console.log("Report: " + id);
-        //alert("Report: " + id);
+        alert("Report: " + id);
     },
     /**
      * Callback for when PhoneGap detects that the device is Online
