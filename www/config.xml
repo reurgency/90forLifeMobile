@@ -118,7 +118,6 @@
     <access origin="http://use.typekit.net*" subdomains="true"/>
     <access origin="http://www.google-analytics.com*" subdomains="true"/>
     <access origin="http://youtube.com*" subdomains="true" browserOnly="true"/>
-    <access origin="hhttp://debug.build.phonegap.com*" subdomains="true"/>
     
     
   <!--
